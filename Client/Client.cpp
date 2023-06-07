@@ -10,6 +10,7 @@
 
 #define BUFSIZE 100
 #define NAMESIZE 20
+#define SERVER_IP "61.83.251.78"
 
 unsigned WINAPI SendMSG(void* arg);
 unsigned WINAPI RecvMSG(void* arg);
@@ -43,8 +44,7 @@ int main(int argc, char** argv)
 
 	memset(&servAddr, 0, sizeof(servAddr));
 	servAddr.sin_family = AF_INET;
-	ULONG addr;
-	servAddr.sin_addr.s_addr = inet_pton(AF_INET, argv[1], &addr);
+	servAddr.sin_addr.s_addr = inet_addr(SERVER_IP);
 	servAddr.sin_port = htons(atoi(argv[2]));
 
 	if (connect(sock, (SOCKADDR*)&servAddr, sizeof(servAddr)) == SOCKET_ERROR)

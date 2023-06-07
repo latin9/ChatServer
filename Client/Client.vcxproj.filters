@@ -13,25 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="리소스 파일\Thread">
+      <UniqueIdentifier>{16b6b8ae-3934-4b9b-acf6-e1046dd4878b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Socket">
+      <UniqueIdentifier>{2aaa21b5-6ba1-4541-a251-df568ce1fb2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Test.cpp">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CSTest.cpp">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MutexTest.cpp">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SemaphoreText.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>리소스 파일\Thread</Filter>
     </ClCompile>
     <ClCompile Include="EventTest.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="MutexTest.cpp">
+      <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SemaphoreText.cpp">
+      <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketTest.cpp">
+      <Filter>리소스 파일\Socket</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
