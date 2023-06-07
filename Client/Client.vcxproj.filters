@@ -42,5 +42,8 @@
     <ClCompile Include="SocketTest.cpp">
       <Filter>리소스 파일\Socket</Filter>
     </ClCompile>
+    <ClCompile Include="stdmutex.cpp">
+      <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
