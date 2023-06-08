@@ -39,11 +39,14 @@
     <ClCompile Include="Test.cpp">
       <Filter>리소스 파일\Thread</Filter>
     </ClCompile>
-    <ClCompile Include="SocketTest.cpp">
+    <ClCompile Include="SocketTestServer.cpp">
       <Filter>리소스 파일\Socket</Filter>
     </ClCompile>
     <ClCompile Include="stdmutex.cpp">
       <Filter>리소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketTestClient.cpp">
+      <Filter>리소스 파일\Socket</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
